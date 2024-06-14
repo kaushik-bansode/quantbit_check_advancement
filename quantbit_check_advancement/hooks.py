@@ -213,3 +213,20 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"quantbit_check_advancement.auth.validate"
 # ]
+fixtures = [
+    
+    {
+        "dt":"Client Script",
+        "filters": [
+            ["name", "in", ["Digital Cheque Book Filter"]]
+        ]
+    },
+     {
+        "dt":"Server Script",
+        "filters": [
+            ["name", "in", ["Cancel DigitalCheque"]]
+        ]
+    }
+
+
+]
